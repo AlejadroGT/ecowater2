@@ -66,18 +66,18 @@
         </style>
     </head>
     
-    <body class="antialiased" bgcolor="090133">
+    <body class="antialiased" background="img/fondoazul.jpg">
 
     <div class="navbar-fixed">
         <nav class="green accent-3">
-            <a href="" class="brand-logo"><img class="responsive-img" src=""  width="200px" 
+            <a href="" class="brand-logo"><img class="responsive-img" src="img/jpgecowater.jpg"  width="200px" 
             style="border-radius: 6px; margin-top: 5px; margin-left: 5px; "></a>
 
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="#Inicio" class="black-text">Inicio <i class="material-icons left">home</i></a> </li>
-                    <li><a href="" class="black-text">Consejos<i class="material-icons left">fact_check </i></a></li>
+                    <li><a href="#Consejos" class="black-text">Consejos<i class="material-icons left">fact_check </i></a></li>
                     <li><a href="" class="black-text">Screenshots<i class="material-icons left">camera</i> </a></li>
-                    <li><a href="" class="black-text">Descargar app<i class="material-icons left">vertical_align_bottom</i></a></li>
+                    <li><a href="#App" class="black-text">Descargar app<i class="material-icons left">vertical_align_bottom</i></a></li>
                 </ul>
 
         
@@ -92,11 +92,15 @@
                
             </div>
         </div>
-        
-        <div class="container row col s3 " style="margin-top: 70px;">
-            <img src="img/celular.png" alt="">
+        <br>
+        <br>
+        <br>
+        <div class="container row" style="margin-top: 70px;">
+            <img src="img/celular.png" alt="" style="margin-left: 30px margin-buttom" height="600px" width="">
             <div class="col s2"></div>
-            <h2 class="title white-text col s5">App EcoWater EL SALVADOR
+            
+
+            <h1 class="title white-text col m6">App EcoWater   EL SALVADOR
 
                 <div class="relative flex items-top justify-center min-h-screen  sm:items-center py-4 sm:pt-0 ">
                     @if (Route::has('login'))
@@ -112,12 +116,139 @@
                             @endauth
                         </div>
                     @endif
-                
-               
-
-            </h2>
-    
+            </h1>
+            
         </div>
+        <a name="Consejos"></a>
+        <div class="card">
+            <br>
+            <div class="card-content green accent-3 row" style="padding-bottom: 40px">
+                    <h1 style="margin-left: 50px">Consejos para cuidar el agua
+                    </h1>
+                
+            </div>
+            <br>
+            <br>
+
+            <div class="row">
+                <div class="col s12 m3">
+                  <div class="card">
+                    <div class="card-image">
+                      <img src="img/grifo.jpg" height="200px">
+                      
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title">Cerra el grifo cuando te lavas los dientes</span>
+                      <p>Lavarse los dientes es algo que hacemos varias veces al día. Por ello,
+                           para evitar un excesivo consumo de agua es importante usar un vaso de enjuague. De esta forma,
+                            puedes ahorrar hasta un 90% del agua empleada en el aseo personal.</p>
+                    </div>
+                  </div>
+                </div>
+
+                    <div class="col s12 m3">
+                      <div class="card">
+                        <div class="card-image">
+                          <img src="img/afeitarse.jpg" height="200px">
+
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title black-text">Cerrar la llave del grifo cuando te estés afeitando</span>
+                          <p>También supone un gran consumo de agua dejarlo abierto mientras te afeitas. 
+                              Solo ábrelo cuando vayas a aclararte.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col s12 m3">
+                        <div class="card">
+                          <div class="card-image">
+                            <img src="img/inodoro.jpg" height="200px">
+                            
+                          </div>
+                          <div class="card-content">
+                            <span class="card-title black-text" >No tirar productos contaminantes por el inodoro</span>
+                            <p>No tires productos contaminantes al agua o productos como toallitas
+                               que luego sean difícil de degradarse o que atasquen las tuberías.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col s12 m3">
+                        <div class="card">
+                          <div class="card-image">
+                            <img src="img/lavamanos.jpg" height="200px">
+                            
+                          </div>
+                          <div class="card-content">
+                            <span class="card-title">Cerrar la llava mientras te enjabonas</span>
+                            <p>Lavarnos las manos también es algo que hacemos muchas veces a lo largo del día. 
+                              Recuerda que para evitar mucho consumo de agua y ahorrar litros de agua, es importante 
+                              cerrar el grifo cuando te estés enjabonando. Solo tienes que tener el grifo abierto cuando 
+                              te vayas a aclarar.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col s12 m3">
+                        <div class="card">
+                          <div class="card-image">
+                            <img src="img/jardin.jpg" height="200px">
+                            
+                          </div>
+                          <div class="card-content">
+                            <span class="card-title">Reduce al mínimo la evaporación</span>
+                            <p>Riega las plantas durante las
+                               horas tempranas de la mañana, cuando las temperaturas están más frescas
+                                y los vientos son más ligeros.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col s12 m3">
+                        <div class="card">
+                          <div class="card-image">
+                            <img src="img/autolavado.jpeg" height="200px">
+                          </div>
+                          <div class="card-content">
+                            <span class="card-title">Usa una cubeta</span>
+                            <p>Usa cubetas con agua para lavar el coche en vez de utilizar una manguera.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col s12 m3">
+                        <div class="card">
+                          <div class="card-image">
+                            <img src="img/senora.jpeg" height="200px">
+                          </div>
+                          <div class="card-content">
+                            <span class="card-title">Aprovecha el agua lluvia</span>
+                            <p>Aprovecha el agua lluvia para regar tus plantas, principalmente en interiores.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                     
+                        <div class="col s12 m3">
+                          <div class="card">
+                            <div class="card-content">
+                              <span class="card-title">Para mas consejos visita esta pagina</span>
+                            </div>
+                            <div class="card-action">
+                              <a href="https://www.fundacionaquae.org/consejos-para-cuidar-del-agua/">Aquae Fundación</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  
+              </div>
+              <a name="App"></a>
+              <div class="row col m6 ">
+                <a href="" class="btn-large green accent-3 text-sm text-black" style="margin-left: 590px; margin-top: 200px;">Descargar app</a>
+              </div>
+                        
+
+        </div>
+
         <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     </body>

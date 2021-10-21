@@ -49,6 +49,7 @@
                     </a>
                 @endif
             </div>-->
+            
                 <x-button class="ml-3" style="margin-left: 240px">
                     {{ __('Iniciar sesion') }}
                 </x-button>
