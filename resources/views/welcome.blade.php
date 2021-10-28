@@ -66,7 +66,9 @@
         </style>
     </head>
     
-    <body class="antialiased" background="img/fondoazul.jpg">
+    <body class="antialiased" background="img/fondoazul.jpg">     
+   
+      
 
     <div class="navbar-fixed">
         <nav class="green accent-3">
@@ -76,7 +78,7 @@
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="#Inicio" class="black-text">Inicio <i class="material-icons left">home</i></a> </li>
                     <li><a href="#Consejos" class="black-text">Consejos<i class="material-icons left">fact_check </i></a></li>
-                    <li><a href="" class="black-text">Screenshots<i class="material-icons left">camera</i> </a></li>
+                    <li><a href="#Screenshots" class="black-text">Screenshots<i class="material-icons left">camera</i> </a></li>
                     <li><a href="#App" class="black-text">Descargar app<i class="material-icons left">vertical_align_bottom</i></a></li>
                 </ul>
 
@@ -239,17 +241,50 @@
                           </div>
                         </div>
                       </div>
-                  
               </div>
-              <a name="App"></a>
-              <div class="row col m6 ">
-                <a href="" class="btn-large green accent-3 text-sm text-black" style="margin-left: 590px; margin-top: 200px;">Descargar app</a>
-              </div>
+
+              
+              <a name="Screenshots"></a>
+              <div class="card">
+                  <br>
+                  <div class="card-content green accent-3 row" style="padding-bottom: 40px">
+                          <h1 style="margin-left: 50px">Screenshots
+                          </h1>
+                      
+                  </div>
+                  <br>
+                  <div class="row">
+                    <div class="col s4"><img src="/img/inicio.jpg" alt="" class="" width="380px" height="650px"></div>
+                    <div class="col s4"><img src="/img/registro.jpg" alt="" class=""  width="380px" height="650px"></div>
+                    <div class="col s4"><img src="/img/sesion.jpg" alt="" class=""  width="380px" height="650px"></div>
+                    <br>
+                    <div class="col s4"><img src="/img/datos.jpg" alt="" class=""  width="380px" height="650px"></div>
+                    <div class="col s4"><img src="/img/consejos1.jpg" alt="" class="" width="380px" height="650px">></div>
+                    <div class="col s4"><img src="/img/consejos2.jpg" alt="" class="" width="380px" height="650px"></div>
+                  </div>
+          
+
                         
 
         </div>
-
+        <a name="App"></a>
+        <div class="row col m6 ">
+          <a href="https://drive.google.com/file/d/1bzMY34gkgplCgJBgo0ozr0uhVmg45qVT/view?usp=sharing" download="Descargar Archivo" class="btn-large green accent-3 text-sm text-black" style="margin-left: 590px; margin-top: 200px;">Descargar app</a>
+        </div>
         <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" 
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script type="module">
+     
+    </script>
+
+
+
+
     </body>
 </html>
